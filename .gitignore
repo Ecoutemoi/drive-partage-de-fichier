@@ -1,0 +1,87 @@
+##################################################
+# STORAGE (IMPORTANT)
+##################################################
+
+storage/
+uploads/
+
+##################################################
+# ENV FILES
+##################################################
+
+.env
+.env.*
+*.env
+
+##################################################
+# FLUTTER / DART
+##################################################
+
+# Build
+/build/
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.metadata
+
+# IDE
+.idea/
+.vscode/
+
+# Logs
+*.log
+*.tmp
+
+# iOS
+ios/Flutter/Flutter.framework
+ios/Flutter/App.framework
+ios/Pods/
+ios/.symlinks/
+ios/Runner.xcworkspace/
+ios/Runner.xcodeproj/project.xcworkspace/
+ios/Runner.xcodeproj/xcuserdata/
+
+# Android
+android/.gradle/
+android/app/build/
+android/local.properties
+
+# macOS
+macos/Flutter/ephemeral/
+macos/Pods/
+
+# Linux
+linux/flutter/ephemeral/
+
+# Windows
+windows/flutter/ephemeral/
+
+##################################################
+# GO
+##################################################
+
+# Binaries
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+
+# Vendor (if used)
+vendor/
+
+##################################################
+# OS FILES
+##################################################
+
+.DS_Store
+Thumbs.db
+
+##################################################
+# COVERAGE
+##################################################
+
+coverage.out
